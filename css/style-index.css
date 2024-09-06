@@ -1,0 +1,163 @@
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU*/
+
+/* logo */
+.encabezado{ 
+    background: linear-gradient( to top,  rgb(80, 47, 23), rgb(49, 29, 14));
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    position: relative;
+    left: 15px;
+    width: 160px;
+}
+
+/* navegador */
+.navegador{
+    display: flex;
+}
+
+.navegador li{
+    display: flex;
+    position: relative;
+    height: 1%;
+    margin: 15px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}   
+
+.listaNavegador{
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+/* sesion */
+.listaSesion{
+    position: relative;
+    left: 280px;
+    top: 25px;
+}
+
+/* registro */
+.listaRegistro{
+    position: relative;
+    left: 280px;
+    top: 25px;
+    padding-inline: 10px;
+    border-radius: 15px;
+    background-color: hsl(45, 75%, 77%);
+}
+.colorRegistro{
+    color: black;
+}
+
+/* estilo del navegador */
+header nav ul li a{
+    color: hsl(45, 75%, 77%);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ANIMACIONES */
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+header nav ul li a:hover{
+    color: hsl(44, 31%, 59%);
+}
+
+.colorRegistro:hover{
+    color: black;
+}
+
+/* CONTENIDO PRINICPAL */
+
+body{
+  background: radial-gradient( circle, hsl(45, 75%, 77%),  hsl(45, 75%, 77%), rgb(197, 159, 78));
+}
+
+.estructura{
+    display: grid;
+    grid-template-areas: "aside aside";
+            
+}
+
+main div h1{
+    position: relative;
+    top: 30px ;
+    left: 35px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main div p{
+    position: relative;
+    top: 40px ;
+    left: 50px;
+    width: 40rem;
+    margin: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+
+main div img{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 10px;
+    top: 15px;
+    margin: 30px;
+    border-radius: 100px;
+
+}
+
+/* PIE DE PAGINA */
+
+.contacto{
+    background: linear-gradient( to bottom,  rgb(80, 47, 23), rgb(49, 29, 14));
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+
+.instagram{
+    position: relative;
+    left: 500px;
+    width: 100px;
+}
+
+.facebook{
+    position: relative;
+    left: 550px;
+    bottom: 10px;
+    width: 75px;
+}
+
+.informacion{
+    text-align: center;
+    font-size: 14px;
+    color: hsl(45, 75%, 77%);;
+}
+
+   
